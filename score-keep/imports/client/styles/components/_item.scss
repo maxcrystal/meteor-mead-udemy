@@ -1,0 +1,36 @@
+// BEM: Block__Element--Modifier
+$green: #e4ede0;
+$green-alt: darken($green, 15%);
+$red: #eddfdf;
+$red-alt: darken($red, 15%);
+$blue: #dfe7ed;
+$blue-alt: darken($blue, 15%);
+
+.item {
+  background: #ffffff;
+  border: 1px solid #e8e8e8;
+  margin-bottom: 1.3rem;
+  padding: 1.3rem;
+}
+
+.item--position-1 {
+  background: $red;
+  border-color: $red-alt;
+}
+
+.item--position-2 {
+  background: $green;
+  border-color: $green-alt;
+}
+
+.item--position-3 {
+  background: $blue;
+  border-color: $blue-alt;
+}
+
+.item__message {
+  font-size: 1.3rem;
+  font-style: italic;
+  font-weight: 300;
+  text-align: center;
+}

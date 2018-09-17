@@ -1,0 +1,11 @@
+$page-width: 50rem;
+
+$title-bar-height: 4rem;
+
+$page-content-sidebar-width: 20rem;
+$page-content-main-width: calc(#{$page-width} - #{page-content-sidebar-width});
+$page-content-height: calc(100vh - #{$title-bar-height});
+
+$space: 1.3rem;
+
+$notes-item-border: 4px;

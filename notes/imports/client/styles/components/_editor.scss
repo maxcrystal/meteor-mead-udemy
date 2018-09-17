@@ -1,0 +1,57 @@
+.editor__title {
+  border: none;
+  border-bottom: 2px solid $border-color;
+  border-radius: 0;
+  margin-top: 1rem;
+  font-size: $font-size-lg;
+}
+
+.editor__body {
+  margin-top: 1rem;
+  border-color: $gray-100;
+  border-radius: 0;
+  font-weight: $font-weight-light;
+  resize: none;
+  -webkit-overflow-scrolling: touch;
+}
+
+.editor__message {
+  text-align: center;
+  margin: 6rem;
+  font-style: italic;
+}
+
+.notes__item {
+  cursor: pointer;
+  padding: .5rem 1rem;
+  border-left: $notes-item-border solid transparent;
+  transition: background-color .5s ease, border-color .5s ease;
+}
+
+.notes__item:hover {
+  background-color: $gray-100;
+  border-left: $notes-item-border solid $border-color;
+}
+
+.notes__item--selected, .notes__item--selected:hover {
+  background-color: $gray-100;
+  border-left: $notes-item-border solid $primary;
+}
+
+.notes__empty-item {
+  font-style: italic;
+  padding: $space;
+  text-align: center;
+}
+
+.notes__item__title {
+  font-weight: $font-weight-normal;
+}
+
+.notes__item--selected .notes__item__title {
+  font-weight: $font-weight-bold;
+}
+
+.notes__item__subtitle {
+
+}

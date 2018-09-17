@@ -1,0 +1,30 @@
+.title-bar {
+  background: $primary;
+  height: $title-bar-height;
+  .container {
+    max-width: $page-width;
+  }
+}
+
+.title-bar__toggler {
+  display: none;
+  border: none;
+  @include media-breakpoint-down(sm) {
+    display: block;
+  }
+}
+
+.title-bar__brand {
+  color: lighten($primary, 45) !important;
+  @include media-breakpoint-down(sm) {
+    margin-left: auto;
+  }
+}
+
+.title-bar__link {
+  color: lighten($primary, 45);
+}
+
+.title-bar__link:hover{
+  color: $white;
+}

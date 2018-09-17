@@ -1,0 +1,21 @@
+.boxed-view {
+  background: $light;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;  // 100% of viewport heght
+  width: 100vw;   // 100% of viewport width
+
+  .jumbotron {
+    padding: 1.5rem 3rem;
+  }
+}
+
+.boxed-view__item {
+  margin-bottom: 0.5rem;
+}
+
+.boxed-view__link {
+  font-size: 0.8rem;
+}
